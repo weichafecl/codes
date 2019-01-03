@@ -1,3 +1,10 @@
+###########################################################
+# This code validate the chilean ID (RUT)
+# Regex is used for identify the inputed ID
+# The Check Digit Algorithm Mod 11 is applied to validate 
+# the inputed digit ID
+###########################################################
+
 import re
 
 rut_ingresado = input('Ingrese su RUT: ')
